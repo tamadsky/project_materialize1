@@ -21,7 +21,7 @@
       <div class="container">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">Quazzu</a>
-          <a href="#" class="button-collapse">
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
             <i class="fa fa-bars"></i>
           </a>
           <ul class="right hide-on-med-and-down">
@@ -36,7 +36,7 @@
               <a href="signup.html" >Signed Up</a>
             </li>
             <li>
-              <a href="login.html" class="btn purple lighten-3"  
+              <a href="#login-modal" class="btn purple modal-trigger"  
               class="btn purple">Login</a>
             </li>
             <li>
@@ -50,22 +50,299 @@
             <li>
               <a href="https://instagram.com">
                 <i class="fab fa-instagram"></i></a>
+            </li> 
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <h4 class="purple-text text-darken-4 center">quazzu</h4>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a href="index.html">Home
+            <i class="fa fa-home grey-text text-darker-4"></i>
+            </a>
+          </li>
+          <li>
+              <a href="solution.html">Solution
+              <i class="fa fa-cog grey-text text-darker-4"></i>
+            </a>
+          </li>
+          <li>
+              <a href="signup.html">Sign Up
+              <i class="fa fa-users grey-text text-darker-4"></i>
+            </a>
+          </li>
+          <li>
+              <div class="divider"></div>
             </li>
-          
+            <li><a href="" class="btn purple">login</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center deep-purple-text">
+          <h5>Welcome To Quazzu</h5>
+          <h1>Build For The Future</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, necessitatibus?</p>
+          <br>
+          <br>
+          <a href="solution.html" class="btn btn-large white purple-text">Learn More</a>
+        <a href="signup.html" class="btn btn-large purple white-text">Sign Up</a>
+
+        </div>
+      </div>
+    </div>
   </header>
 
-  
+  <!-- Section: Icon Boxes -->
+  <section class="section section-icons center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-user fa-3x deep-purple-text text-darken-2"></i>
+          <h5 class="grey-text text darken-4">Free Account</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, asperiores?</p>
+          
+        </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-database fa-3x deep-purple-text text-darken-2"></i>
+          <h5 class="grey-text text darken-4">Free Account</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, asperiores?</p>
+        </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="fa fa-bolt fa-3x deep-purple-text text-darken-2"></i>
+          <h5 class="grey-text text darken-4">Free Account</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, asperiores?</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: About  -->
+  <section class="section section-about grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3 class="deep-purple-text text-darken-1"><span class="deep-purple-text text-darken-1">about</span> Us</h3>
+          <p class="flow-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, accusantium deleniti labore ipsa perferendis commodi?</p>
+          
+        </div>
+        <div class="col s12 m6"><img src="img/tech.jpg" alt="" class="circle responsive-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Developer -->
+  <section class="section section-developers white-text">
+    <div class="primary-overlay valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center">
+            <h3>For Developers , By Developers</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Language -->
+  <section class="section section-language grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">Work With Any Language <span class="deep-purple-text text-darken-1"></span>
+        </h4>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col s2">
+            <img src="img/c-sharp-logo.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s2">
+          <img src="img/java-logo.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s2">
+          <img src="img/node-logo.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s2">
+          <img src="img/php-logo.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s2">
+          <img src="img/python-logo.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s2">
+          <img src="img/ruby-logo.png" alt="" class="responsive-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section podcast  -->
+  <section class="section section-podcast white-text">
+    <div class="primary-overlay valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8">
+            <h4>Listen to the Quazzo Podcast</h4>
+            <p>Every thursday at 5pm EST</p>
+          </div>
+          <div class="col s12 m4"><a href="#" class="btn purple purple-large">
+            <i class="fa fa-podcast"></i>Listen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section: Testimonial -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="carousel carousel-slider center">
+          <div class="carousel-item" href="#one!">
+            <h2>Testimonial 1</h2>
+              <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime omnis id error nam quisquam.</p>
+              <p><em>John Doe From Microsystems</em></p>
+              <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn green">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item" href="#two!">
+              <h2>Testimonial 2</h2>
+                <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime omnis id error nam quisquam.</p>
+                <p><em>John Doe From Microsystems</em></p>
+                <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn green">Read More</a>
+              </div>
+            </div>
+            <div class="carousel-item" href="#three!">
+                <h2>Testimonial 3</h2>
+                  <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime omnis id error nam quisquam.</p>
+                  <p><em>John Doe From Microsystems</em></p>
+                  <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn green">Read More</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <section class="section section-testimonial grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel carousel-slider center">
+          
+            <div class="carousel-item" href="#one!">
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime omnis id error nam quisquam.</p>
+              <p><em>John Doe From Microsystems</em></p>
+              <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn green">Read More</a>
+              </div>
+            </div>
+          
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href="#two!">
+              <h2>Testimonial 2</h2>
+              <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique maxime omnis id error nam quisquam.</p>
+              <p><em>Mike smith From edge </em></p>
+              <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn grey">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href="#three!">
+              <h2>Testimonial 3</h2>
+              <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Similique maxime omnis id error nam quisquam.</p>
+              <p><em>Karen will form techsoft</em></p>
+              <div class="carousel-fixed-item center hide-on-small-and-down"><a href="" class="btn grey">Read More</a>
+              </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!--footer  -->
+
+  <footer class="page-footer purple darken-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright deep-purple darken-1">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Modal  -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login access you account dashboard</p>
+      <form>
+        <div class="input-field">Email
+          <input type="email" id="email">
+          <label for="email"></label>
+        </div>
+        <div class="input-field">Password
+          <input type="password" id="password">
+          <label for="password"></label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="" class="modal-action modal-close btn green">Reset Password
+      <i class="fa fa-sync"> </i>
+      </a>
+      <a href="" class="modal-action modal-close btn blue">Login
+      <i class="fa fa-lock"></i>
+      </a>
+    </div>
+  </div>
+
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
       // Custom JS & jQuery here
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+        });
 
+      $('.button-collapse').sideNav();
+      $('.modal').modal();
     });
   </script>
 </body>

@@ -1,5 +1,5 @@
 .main-header {
-  background: url(../img/background.jpg);
+  background: url(../img/one-piece-wallpaper-hd-1920x1080.png);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -13,4 +13,50 @@
 .active-link {
   color: #d847f1;
   font-weight: bold;
+}
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 180px;
+
+}
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 150px
+
+}
+
+.section-podcast.primary-overlay {
+  background: rgba(red, green, blue, alpha)
+}
+
+.section-podcast a {
+  margin-top: 40px;
+
+}
+
+@media () {
+.section.developers,
+.section-podcast {
+  min-height:240px;
+}
 }
